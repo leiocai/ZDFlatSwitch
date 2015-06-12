@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D889DF2C1B2A8133006651AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D889DF2B1B2A8133006651AD /* main.m */; };
+		D889DF2F1B2A8133006651AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D889DF2E1B2A8133006651AD /* AppDelegate.m */; };
+		D889DF321B2A8133006651AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D889DF311B2A8133006651AD /* ViewController.m */; };
+		D889DF351B2A8133006651AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D889DF331B2A8133006651AD /* Main.storyboard */; };
+		D889DF371B2A8133006651AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D889DF361B2A8133006651AD /* Images.xcassets */; };
+		D889DF3A1B2A8133006651AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D889DF381B2A8133006651AD /* LaunchScreen.xib */; };
+		D889DF461B2A8133006651AD /* AVFlatSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D889DF451B2A8133006651AD /* AVFlatSwitchTests.m */; };
+		D889DF511B2A8182006651AD /* ZDFlatSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = D889DF501B2A8182006651AD /* ZDFlatSwitch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D889DF401B2A8133006651AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D889DF1E1B2A8133006651AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D889DF251B2A8133006651AD;
+			remoteInfo = AVFlatSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D889DF261B2A8133006651AD /* AVFlatSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFlatSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D889DF2A1B2A8133006651AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D889DF2B1B2A8133006651AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D889DF2D1B2A8133006651AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D889DF2E1B2A8133006651AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D889DF301B2A8133006651AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D889DF311B2A8133006651AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D889DF341B2A8133006651AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D889DF361B2A8133006651AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D889DF391B2A8133006651AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D889DF3F1B2A8133006651AD /* AVFlatSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVFlatSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D889DF441B2A8133006651AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D889DF451B2A8133006651AD /* AVFlatSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFlatSwitchTests.m; sourceTree = "<group>"; };
+		D889DF4F1B2A8182006651AD /* ZDFlatSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFlatSwitch.h; sourceTree = "<group>"; };
+		D889DF501B2A8182006651AD /* ZDFlatSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFlatSwitch.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D889DF231B2A8133006651AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D889DF3C1B2A8133006651AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D889DF1D1B2A8133006651AD = {
+			isa = PBXGroup;
+			children = (
+				D889DF281B2A8133006651AD /* AVFlatSwitch */,
+				D889DF421B2A8133006651AD /* AVFlatSwitchTests */,
+				D889DF271B2A8133006651AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D889DF271B2A8133006651AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D889DF261B2A8133006651AD /* AVFlatSwitch.app */,
+				D889DF3F1B2A8133006651AD /* AVFlatSwitchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D889DF281B2A8133006651AD /* AVFlatSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				D889DF2D1B2A8133006651AD /* AppDelegate.h */,
+				D889DF2E1B2A8133006651AD /* AppDelegate.m */,
+				D889DF301B2A8133006651AD /* ViewController.h */,
+				D889DF311B2A8133006651AD /* ViewController.m */,
+				D889DF331B2A8133006651AD /* Main.storyboard */,
+				D889DF361B2A8133006651AD /* Images.xcassets */,
+				D889DF381B2A8133006651AD /* LaunchScreen.xib */,
+				D889DF291B2A8133006651AD /* Supporting Files */,
+				D889DF4F1B2A8182006651AD /* ZDFlatSwitch.h */,
+				D889DF501B2A8182006651AD /* ZDFlatSwitch.m */,
+			);
+			path = AVFlatSwitch;
+			sourceTree = "<group>";
+		};
+		D889DF291B2A8133006651AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D889DF2A1B2A8133006651AD /* Info.plist */,
+				D889DF2B1B2A8133006651AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D889DF421B2A8133006651AD /* AVFlatSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				D889DF451B2A8133006651AD /* AVFlatSwitchTests.m */,
+				D889DF431B2A8133006651AD /* Supporting Files */,
+			);
+			path = AVFlatSwitchTests;
+			sourceTree = "<group>";
+		};
+		D889DF431B2A8133006651AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D889DF441B2A8133006651AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D889DF251B2A8133006651AD /* AVFlatSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D889DF491B2A8133006651AD /* Build configuration list for PBXNativeTarget "AVFlatSwitch" */;
+			buildPhases = (
+				D889DF221B2A8133006651AD /* Sources */,
+				D889DF231B2A8133006651AD /* Frameworks */,
+				D889DF241B2A8133006651AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVFlatSwitch;
+			productName = AVFlatSwitch;
+			productReference = D889DF261B2A8133006651AD /* AVFlatSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D889DF3E1B2A8133006651AD /* AVFlatSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D889DF4C1B2A8133006651AD /* Build configuration list for PBXNativeTarget "AVFlatSwitchTests" */;
+			buildPhases = (
+				D889DF3B1B2A8133006651AD /* Sources */,
+				D889DF3C1B2A8133006651AD /* Frameworks */,
+				D889DF3D1B2A8133006651AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D889DF411B2A8133006651AD /* PBXTargetDependency */,
+			);
+			name = AVFlatSwitchTests;
+			productName = AVFlatSwitchTests;
+			productReference = D889DF3F1B2A8133006651AD /* AVFlatSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D889DF1E1B2A8133006651AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zhidier;
+				TargetAttributes = {
+					D889DF251B2A8133006651AD = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D889DF3E1B2A8133006651AD = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D889DF251B2A8133006651AD;
+					};
+				};
+			};
+			buildConfigurationList = D889DF211B2A8133006651AD /* Build configuration list for PBXProject "AVFlatSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D889DF1D1B2A8133006651AD;
+			productRefGroup = D889DF271B2A8133006651AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D889DF251B2A8133006651AD /* AVFlatSwitch */,
+				D889DF3E1B2A8133006651AD /* AVFlatSwitchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D889DF241B2A8133006651AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D889DF351B2A8133006651AD /* Main.storyboard in Resources */,
+				D889DF3A1B2A8133006651AD /* LaunchScreen.xib in Resources */,
+				D889DF371B2A8133006651AD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D889DF3D1B2A8133006651AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D889DF221B2A8133006651AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D889DF511B2A8182006651AD /* ZDFlatSwitch.m in Sources */,
+				D889DF321B2A8133006651AD /* ViewController.m in Sources */,
+				D889DF2F1B2A8133006651AD /* AppDelegate.m in Sources */,
+				D889DF2C1B2A8133006651AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D889DF3B1B2A8133006651AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D889DF461B2A8133006651AD /* AVFlatSwitchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D889DF411B2A8133006651AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D889DF251B2A8133006651AD /* AVFlatSwitch */;
+			targetProxy = D889DF401B2A8133006651AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D889DF331B2A8133006651AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D889DF341B2A8133006651AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D889DF381B2A8133006651AD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D889DF391B2A8133006651AD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D889DF471B2A8133006651AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D889DF481B2A8133006651AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D889DF4A1B2A8133006651AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVFlatSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D889DF4B1B2A8133006651AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AVFlatSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D889DF4D1B2A8133006651AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AVFlatSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVFlatSwitch.app/AVFlatSwitch";
+			};
+			name = Debug;
+		};
+		D889DF4E1B2A8133006651AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AVFlatSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVFlatSwitch.app/AVFlatSwitch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D889DF211B2A8133006651AD /* Build configuration list for PBXProject "AVFlatSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D889DF471B2A8133006651AD /* Debug */,
+				D889DF481B2A8133006651AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D889DF491B2A8133006651AD /* Build configuration list for PBXNativeTarget "AVFlatSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D889DF4A1B2A8133006651AD /* Debug */,
+				D889DF4B1B2A8133006651AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D889DF4C1B2A8133006651AD /* Build configuration list for PBXNativeTarget "AVFlatSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D889DF4D1B2A8133006651AD /* Debug */,
+				D889DF4E1B2A8133006651AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D889DF1E1B2A8133006651AD /* Project object */;
+}
