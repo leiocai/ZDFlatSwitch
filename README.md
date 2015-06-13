@@ -14,7 +14,7 @@
 
 > **手动安装**
 >
-> 拖动`ZDFlatSwitch.h` 和 `ZDFlatSwitch.m` 文件到你的项目中 file directly in your project. 
+> 拖动`ZDFlatSwitch.h` 和 `ZDFlatSwitch.m` 文件到你的项目中即可. 
 >
 
 ## 使用方法:
@@ -49,4 +49,4 @@ flatSwitch.trailStrokeColor = [UIColor greenColor];
 
 ## License
 
-AIFlatSwitch is released under the MIT license. See LICENSE for details. 
+ZDFlatSwitch is released under the MIT license. See LICENSE for details. 
